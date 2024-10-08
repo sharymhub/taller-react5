@@ -1,0 +1,99 @@
+.cards{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.Card {
+  background-color: yellowgreen;
+  width: 250px;
+  height: 400px;
+  margin: 20px;
+  padding: 20px;
+  padding-top: 30px;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  width: 80px;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.7));
+}
+
+.Title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 38px;
+  margin: 8px;
+}
+
+.Price {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  margin: 8px;
+}
+
+.Description {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 10px;
+  padding: 5px;
+}
+
+.Button {
+  width: 130px;
+  height: 45px;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: Dancing Script, "cursive";
+  font-style: italic;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.Button:hover {
+  background-color: black;
+  color: yellowgreen;
+  cursor: pointer;
+}
+
+.Card1 {
+  background-color: #e384ff;
+  width: 250px;
+  height: 400px;
+  margin: 20px;
+  padding: 20px;
+  padding-top: 30px;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+}
+
+.Card1:hover {
+    transform: scale(1.05);
+  }
+
+.Button1 {
+  width: 130px;
+  height: 45px;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: Dancing Script, "cursive";
+  font-style: italic;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.Button1:hover {
+    background-color: black;
+    color: #e384ff;
+    cursor: pointer;
+  }
